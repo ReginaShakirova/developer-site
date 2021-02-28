@@ -486,7 +486,7 @@ html {
 }
 
 body {
-  font-family: "Conv_Revalia-Regular";
+  font-family: "Conv_Roboto-Regular";
   font-weight: normal;
   font-style: normal;
   font-size: 16px;
@@ -561,8 +561,46 @@ body {
 /* Intro styles start */
 
 .intro {
-  height: 100vh;
+  min-height: 100vh;
   background-color: #eeeff1;
+  padding-top: 257px;
+}
+
+.intro__img {
+  float: left;
+  padding-left: 85px;
+  padding-top: 41px;
+}
+
+.intro__info {
+  padding-left: 572px;
+}
+
+.intro__title {
+  font-family: Conv_Roboto-Medium;
+  font-weight: 500;
+  font-size: 48px;
+  line-height: 79px;
+  color: #000;
+  margin-bottom: 60px;
+}
+
+.intro__subtitle {
+  margin-bottom: 60px;
+}
+
+.intro__mail-button {
+  padding: 25px 41px;
+  letter-spacing: 0.1em;
+  color: #fff;
+  background: #34547a;
+  border: 0;
+}
+
+.intro__mail-button:hover,
+.intro__mail-button:active,
+.intro__mail-button:focus {
+  background: #27456a;
 }
 
 /* Intro styles start */
