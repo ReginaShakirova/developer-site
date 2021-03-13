@@ -499,6 +499,25 @@ body {
   margin: 0 auto;
 }
 
+.wrap-text-content {
+  max-width: 540px;
+  margin: 0 auto;
+}
+
+.title-text-content {
+  font-family: "Conv_Roboto-Medium";
+  font-size: 32px;
+  line-height: 37px;
+  color: #000;
+  margin-bottom: 50px;
+}
+
+.subtitle-text-content {
+  font-size: 16px;
+  line-height: 26px;
+  color: #727272;
+}
+
 /* Header styles start */
 
 .header {
@@ -561,9 +580,10 @@ body {
 /* Intro styles start */
 
 .intro {
-  min-height: 100vh;
+  /* min-height: 100vh; */
   background-color: #eeeff1;
   padding-top: 257px;
+  margin-bottom: 146px;
 }
 
 .intro__img {
@@ -595,6 +615,7 @@ body {
   color: #fff;
   background: #34547a;
   border: 0;
+  margin-bottom: 146px;
 }
 
 .intro__mail-button:hover,
@@ -604,3 +625,12 @@ body {
 }
 
 /* Intro styles start */
+
+/* About styles start */
+
+.about {
+  text-align: center;
+  margin-bottom: 100px;
+}
+
+/* About styles end */
