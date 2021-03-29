@@ -634,3 +634,37 @@ body {
 }
 
 /* About styles end */
+
+/* Projects styles start */
+.projects {
+  background: #34547a;
+  margin-bottom: 102px;
+}
+
+.project-wrap {
+  padding: 100px 205px;
+  display: flex;
+}
+
+.project-value {
+  color: #fff;
+}
+
+.project-card {
+  display: flex;
+  margin-right: 49px;
+}
+
+.project-ico {
+  margin-right: 20px;
+}
+
+.project-number {
+  font-family: "Conv_Roboto-Medium";
+  font-size: 21px;
+}
+
+.project-title {
+  font-size: 16px;
+}
+/* Projects styles end */
