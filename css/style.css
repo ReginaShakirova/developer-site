@@ -499,6 +499,11 @@ body {
   margin: 0 auto;
 }
 
+.wrap-main-content {
+  max-width: 1150px;
+  margin: 0 auto;
+}
+
 .wrap-text-content {
   max-width: 540px;
   margin: 0 auto;
@@ -525,6 +530,11 @@ body {
   top: 0;
   left: 0;
   width: 100%;
+  padding-bottom: 25px;
+}
+
+.header-active {
+  background: #eeeff1;
 }
 
 .header__wrapper {
@@ -638,7 +648,6 @@ body {
 /* Projects styles start */
 .projects {
   background: #34547a;
-  margin-bottom: 102px;
 }
 
 .project-wrap {
@@ -668,3 +677,75 @@ body {
   font-size: 16px;
 }
 /* Projects styles end */
+
+/* Skills styles start */
+
+.skills {
+  background: #e5e5e5;
+}
+
+.skills-card {
+  display: flex;
+}
+
+.skill-title {
+  font-size: 32px;
+  line-height: 37px;
+  color: #000000;
+  padding-top: 204px;
+  margin-bottom: 50px;
+}
+
+.skill-list {
+  padding-bottom: 216px;
+  margin-right: 466px;
+}
+
+.skill-name {
+  font-size: 16px;
+  position: relative;
+  margin-bottom: 54px;
+}
+
+.skill-name::before {
+  content: "";
+  display: block;
+  position: absolute;
+  width: 349.36px;
+  height: 4px;
+  left: 0;
+  top: 35px;
+  z-index: 1;
+  background: #34547a;
+  transform: rotate(-0.06deg);
+}
+
+.skill-name::after {
+  content: "";
+  display: block;
+  position: absolute;
+  width: 445px;
+  height: 4px;
+  left: 0;
+  top: 35px;
+  background: #c4c4c4;
+}
+
+.skill-my-photo {
+  max-width: 555px;
+  max-height: 450px;
+  padding-top: 102px;
+  padding-left: 150px;
+}
+
+/* Skills styles end */
+
+/* About work styles start */
+
+.about-work {
+  text-align: center;
+  background: #eeeff1;
+  padding-top: 100px;
+}
+
+/* About work styles end */
