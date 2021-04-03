@@ -893,3 +893,42 @@ body {
 }
 
 /* Order styles end */
+
+/* Footer styles start */
+
+.footer {
+  background: #34547a;
+  color: #fff;
+}
+
+.footer-item {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.footer-info {
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+.footer-name {
+  font-family: "Conv_Roboto-Medium";
+  font-size: 21px;
+  padding-bottom: 20px;
+}
+
+.footer-right {
+  font-size: 13px;
+}
+
+.footer-social {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  width: 15%;
+  padding-top: 64.59px;
+  padding-bottom: 63.59px;
+}
+
+/* Footer styles end */
