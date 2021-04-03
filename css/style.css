@@ -497,16 +497,19 @@ body {
 .wrapper {
   max-width: 1105px;
   margin: 0 auto;
+  padding: 0 15px;
 }
 
 .wrap-main-content {
   max-width: 1150px;
   margin: 0 auto;
+  padding: 0 15px;
 }
 
 .wrap-text-content {
   max-width: 540px;
   margin: 0 auto;
+  padding: 0 15px;
 }
 
 .title-text-content {
@@ -652,7 +655,7 @@ body {
 }
 
 .project-wrap {
-  padding: 100px 205px;
+  padding: 100px 15px;
   display: flex;
 }
 
@@ -662,6 +665,7 @@ body {
 
 .project-card {
   display: flex;
+  flex-wrap: wrap;
   margin-right: 49px;
 }
 
@@ -687,6 +691,7 @@ body {
 
 .skills-card {
   display: flex;
+  flex-wrap: wrap;
 }
 
 .skill-title {
@@ -737,6 +742,7 @@ body {
   max-height: 450px;
   padding-top: 102px;
   padding-left: 150px;
+  padding-bottom: 101px;
 }
 
 /* Skills styles end */
