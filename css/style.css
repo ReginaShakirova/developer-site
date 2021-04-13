@@ -820,10 +820,12 @@ body {
 .photos {
   padding: 28px 0 72px;
   display: grid;
-  grid-template-columns: repeat(4, 1fr);
+  grid-template-columns: repeat(4, 2fr);
 }
 
 .photo {
+  height: auto;
+  width: 100%;
   max-width: 480px;
 }
 
@@ -1031,6 +1033,175 @@ body {
 
   .header__nav-close-line:last-child {
     transform: translateY(-50%) rotate(-45deg);
+  }
+
+  .intro__img {
+    float: none;
+    padding-left: 50px;
+    margin-bottom: 50px;
+  }
+
+  .intro__info {
+    padding-left: 50px;
+  }
+
+  .skill-list {
+    padding-bottom: 10px;
+    margin-right: 250px;
+  }
+
+  .skill-my-photo {
+    height: auto;
+    width: 100%;
+  }
+
+  .footer-item {
+    justify-content: space-around;
+  }
+
+  .footer-social {
+    width: 25%;
+  }
+}
+
+@media screen and (max-width: 400px) {
+  .title-text-content {
+    font-size: 22px;
+    line-height: 17px;
+    margin-bottom: 25px;
+  }
+
+  .subtitle-text-content {
+    font-size: 14px;
+    line-height: 16px;
+  }
+
+  .intro {
+    padding-top: 157px;
+    margin-bottom: 46px;
+  }
+
+  .intro__img {
+    width: 50%;
+    padding-left: 10px;
+    padding-top: 21px;
+  }
+
+  .intro__info {
+    padding-left: 10px;
+  }
+
+  .intro__title {
+    font-family: Conv_Roboto-Medium;
+    font-weight: 500;
+    font-size: 28px;
+    line-height: 79px;
+    color: #000;
+    margin-bottom: 30px;
+  }
+
+  .intro__subtitle {
+    font-size: 16px;
+    margin-bottom: 30px;
+  }
+
+  .intro__mail-button {
+    padding: 15px 21px;
+    margin-bottom: 76px;
+  }
+
+  .project-wrap {
+    padding: 50px 8px;
+  }
+
+  .project-card {
+    margin-right: 0px;
+  }
+
+  .project-ico {
+    width: 40%;
+    margin-right: 0px;
+  }
+
+  .project-number {
+    font-size: 15px;
+  }
+
+  .project-title {
+    font-size: 12px;
+  }
+
+  .skill-name::before {
+    display: none;
+  }
+
+  .skill-name::after {
+    display: none;
+  }
+
+  .photos {
+    grid-template-columns: repeat(2, 2fr);
+  }
+
+  .order {
+    padding-top: 50px;
+    padding-bottom: 50px;
+  }
+
+  .order-form {
+    padding-top: 35px;
+  }
+
+  .order-form-contact {
+    width: 155px;
+    height: 30px;
+    font-size: 12px;
+    padding-left: 10px;
+  }
+
+  .order-form-messages {
+    padding-top: 20px;
+  }
+
+  .order-form-message {
+    width: 340px;
+    height: 105px;
+    font-size: 12px;
+    padding-left: 15px;
+    padding-top: 12px;
+  }
+
+  .order-form-contact::placeholder,
+  .order-form-message::placeholder {
+    font-size: 10px;
+  }
+
+  .order-form-submit {
+    padding-top: 30px;
+  }
+
+  .submit-button {
+    font-size: 12px;
+    letter-spacing: 0.15em;
+    padding: 15px 30px;
+  }
+
+  .footer-social {
+    width: 50%;
+  }
+
+  .footer-info {
+    padding-top: 25px;
+    padding-bottom: 25px;
+  }
+
+  .footer-name {
+    font-size: 15px;
+    padding-bottom: 10px;
+  }
+
+  .footer-right {
+    font-size: 13px;
   }
 }
 
